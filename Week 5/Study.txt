@@ -1,0 +1,12 @@
+Decision Rule
+ Based on the Schelling model, the decision rule for an agent to move is that if the proportion of same-group neighbors (including itself) is less than the tolerance, then the agent will move to a random empty cell in the grid.
+
+Study
+Generate a 20x20 grid with 200 agents.
+Run the simulation for 50 iterations.
+Test two levels of tolerance: low and high. The low tolerance level will be 0.2, and the high tolerance level will be 0.8.
+Test two different group sizes: equal-sized and unequal-sized. For the equal-sized group, we will divide the grid into two equal groups of 100 agents. For the unequal-sized group, we will divide the grid into one group of 150 agents and another group of 50 agents.
+Measure the level of segregation in the grid after each iteration using the Schelling index.
+Plot the Schelling index over time for each simulation.
+Analyze and compare the results for each simulation and discuss the findings.
+
